@@ -22,4 +22,35 @@ public class UserInfo {
     @Column(nullable = false, name = "id_user_tipo")
     private String idUserType;
 
+    public Integer getIdUserInfo() {
+        return idUserInfo;
+    }
+
+    public void setIdUserInfo(Integer idUserInfo) {
+        this.idUserInfo = idUserInfo;
+    }
+
+    public String getIdPersonalData() {
+        return idPersonalData;
+    }
+
+    public void setIdPersonalData(String idPersonalData) {
+        this.idPersonalData = idPersonalData;
+    }
+
+    public String getIdClubData() {
+        return idClubData;
+    }
+
+    public void setIdClubData(String idClubData) {
+        this.idClubData = idClubData;
+    }
+
+    public String getIdUserType() {
+        return idUserType;
+    }
+
+    public void setIdUserType(String idUserType) {
+        this.idUserType = idUserType;
+    }
 }

@@ -13,7 +13,22 @@ public class UserType {
     @GeneratedValue
     private Integer idUserType;
 
-    @Column(nullable = false, name = "tipo")
-    private String tipo;
+    @Column(nullable = false, name = "type")
+    private String type;
 
+    public Integer getIdUserType() {
+        return idUserType;
+    }
+
+    public void setIdUserType(Integer idUserType) {
+        this.idUserType = idUserType;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
 }
