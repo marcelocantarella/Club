@@ -9,9 +9,9 @@ import lombok.Data;
 public class Club {
 
     @Id
-    @Column(nullable = false, updatable = false)
+    @Column(nullable = false, updatable = false, name = "id_club")
     @GeneratedValue
-    private Integer id;
+    private Integer idClub;
 
     @Column(nullable = false, name = "nombre")
     private String nombre;
