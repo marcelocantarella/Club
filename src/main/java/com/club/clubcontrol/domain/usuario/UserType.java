@@ -1,4 +1,4 @@
-package com.club.clubcontrol.domain;
+package com.club.clubcontrol.domain.usuario;
 
 import jakarta.persistence.*;
 import lombok.Data;
